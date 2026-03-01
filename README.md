@@ -10,7 +10,8 @@
 -cm1-/
 ├── cm1配置/
 │   ├── namelist.input        # CM1 主要运行参数配置文件
-│   └── init3d.F              # 三维初始条件配置（Fortran 源码，含台风涡旋定义）
+│   ├── init3d.F              # 三维初始条件配置（Fortran 源码，含台风涡旋定义）
+|   └── CM1 模式环境搭建与双台风模拟教程.md
 └── 可视化code/
     ├── intensity_visual_1tc.py   # 台风强度时间序列可视化（最低气压 & 最大风速）
     └── theta_z_t.py              # 中心点位温垂直廓线随时间演变的可视化
